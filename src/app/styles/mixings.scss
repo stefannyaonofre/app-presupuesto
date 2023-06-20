@@ -1,0 +1,19 @@
+@mixin buttons () {
+   border: none;
+   padding: 5px 10px;
+   border-radius: 5px;
+
+   &:hover {
+      background-color: transparent;
+      cursor: pointer;
+   }
+
+   //  background-color: $back-color;
+   //  color: $color-font;
+}
+
+@mixin table {
+   border: 2px solid $color-primary;
+   align-items: center;
+   border-radius: 5px;
+}
